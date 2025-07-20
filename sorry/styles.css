@@ -1,0 +1,78 @@
+body {
+    font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9fd8fc;
+    color: #333;
+    text-align: center;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #251f30;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(6, 4, 12, 70%);
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+#title {
+    font-size: 2rem;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 7.5px rgb(6, 4, 12, 40%)
+}
+
+#excuse {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+#categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+.category {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e0f2fd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(6, 4, 12, 30%);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 120px;
+    text-align: center;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgb(6, 4, 12, 50%);
+    background-color: #9fd8fc;
+}
+
+.category img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.category span {
+    font-weight: bold;
+    color: #333;
+}
