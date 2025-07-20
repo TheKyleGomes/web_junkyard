@@ -2,7 +2,7 @@
 
 | **THING**                 | **TECH**            | **DESCRIPTION**                                                   |
 |---------------------------|---------------------|-------------------------------------------------------------------|
-| [SORRY](https://thekylegomes.github.io/web_junkyard/sorry/)| HTML / CSS / JS     | Spits out dumb excuses on demand ► perfect for skipping reality 🏃💨 |
+|🙄 [SORRY](https://thekylegomes.github.io/web_junkyard/sorry/)| HTML / CSS / JS     | Spits out dumb excuses on demand ► perfect for skipping reality 🏃💨 |
 
 ### 🌐 What's this repo about?
 
